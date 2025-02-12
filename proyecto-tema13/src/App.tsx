@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css"; // Importar estilos de Toastify
 import WeatherApp from "./components/WeatherApp";
 import SideBar from "./components/Instagram";
 import Prueba from "./components/Prueba";
+import CursorTracker from "./components/CursorTracker";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <SideBar />
     <Prueba />
     <ToastContainer autoClose={3000} /> {/* Configurar ToastContainer */}
+    <CursorTracker /> {/* Añadir CursorTraker */}
   </div>
   );
 };
